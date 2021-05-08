@@ -1,7 +1,7 @@
 # NetNinja_Lesson_10
-Michael Clautice, Richmond, VA
-The Net Ninja - Node JS Tutorial for Beginners 
-Lesson 10 - Creating & Removing Directories
+Michael Clautice, Richmond, VA<br>
+The Net Ninja - Node JS Tutorial for Beginners<br>
+Lesson 10 - Creating & Removing Directories<br>
 
 https://www.youtube.com/watch?v=Ejgd-la6nSY&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp&index=10
  
@@ -11,4 +11,4 @@ https://www.youtube.com/watch?v=Ejgd-la6nSY&list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4b
 
 • delete directories
 
-• deleting files via fs.unlink( )
+• deleting files via fs.unlink( ) from a directory
