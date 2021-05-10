@@ -1,4 +1,4 @@
-# NetNinja_Lesson_10
+# NetNinja_NodeJS_Lesson_10
 Michael Clautice, Richmond, VA<br>
 The Net Ninja - Node JS Tutorial for Beginners<br> 
 Lesson 10 - Creating & Removing Directories
