@@ -12,19 +12,19 @@ var fs = require('fs');
 // fs.rmdirSync('stuff');
 
 // make a directory async version
-// 1 - make a drctry named stuff
+// 1 - make a drctry named stuff2
 // 2 - read the data in readMe.txt
-// 3 - write that data to a new writeMe.txt in the stuff drctry 
-// fs.mkdir('stuff', function(){
+// 3 - write that data to a new writeMe.txt in the stuff2 drctry 
+fs.mkdir('stuff2', function(){
 // reading data from readMe.txt
-/*     fs.readFile('readMe.txt', 'utf8', function(err, data){
-        console.log( "created directry and file");
-        fs.writeFile('./stuff/writeMe.txt', data, function(){});
+    fs.readFile('readMe.txt', 'utf8', function(err, data){
+        console.log( "\ncreated directry and file\n");
+        fs.writeFile('./stuff2/writeMe.txt', data, function(){});
     });
-}); */
+});
 
 // remove a directory's contents & 
 // then the dirctry - async version
-fs.unlink('./stuff/writeMe.txt', function(err){
+/* fs.unlink('./stuff/writeMe.txt', function(err){
     fs.rmdir('./stuff/', function(){});
-});
+}); */
